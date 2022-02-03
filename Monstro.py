@@ -12,3 +12,11 @@ class Monstro:
         random.shuffle(data)
         self.defesa = data[:4]
 
+class MonstroTestSpy(Monstro):
+    def __init__(self):
+        Monstro.__init__(self)
+        self.chamouGerarDefesa = False
+
+    def gerarDefesa(self):
+        self.chamouGerarDefesa = True
+ 

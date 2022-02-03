@@ -1,7 +1,7 @@
 from Monstro import Monstro
-from Ataque import Ataque
 from Jogador import Jogador
 from Jogo import Jogo
+from Ataque import Ataque
 
 def retornarNomeDaArma(arma):
     nomeArma = ""
